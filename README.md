@@ -717,21 +717,21 @@ USING ( bucket_id = 'doctor-profiles' );
 
 ### Patient Interface
 
-| Home Screen | Doctor Search | Appointment Booking |
+| Home Screen | Categories | Appointment Schedule |
 |:-----------:|:-------------:|:------------------:|
-| <img src="screenshots/home.png" width="200"/> | <img src="screenshots/search.png" width="200"/> | <img src="screenshots/booking.png" width="200"/> |
+| <img src="screenshots/Home Screen (Upcoming appointment).jpg" width="200"/> | <img src="screenshots/Categories.jpg" width="200"/> | <img src="screenshots/User Schedule (Scheduled).jpg" width="200"/> |
 
 ### Doctor Interface
 
-| Schedule Management | Appointment Requests | Patient List |
+| Schedule Management | Appointment Requests | Doctor Application |
 |:------------------:|:-------------------:|:------------:|
-| <img src="screenshots/schedule.png" width="200"/> | <img src="screenshots/requests.png" width="200"/> | <img src="screenshots/patients.png" width="200"/> |
+| <img src="screenshots/User Schedule (Completed).jpg" width="200"/> | <img src="screenshots/Patient Requests (Approved).jpg" width="200"/> | <img src="screenshots/Becoming a doctor 1.jpg" width="200"/> |
 
 ### Communication
 
 | Real-time Chat | Notifications | Profile Management |
 |:--------------:|:-------------:|:-----------------:|
-| <img src="screenshots/chat.png" width="200"/> | <img src="screenshots/notifications.png" width="200"/> | <img src="screenshots/profile.png" width="200"/> |
+| <img src="screenshots/Messages.jpg" width="200"/> | <img src="screenshots/Notifications.jpg" width="200"/> | <img src="screenshots/Doctor Profile 1.jpg" width="200"/> <img src="screenshots/Doctor Profile 2.jpg" width="200"/> |
 
 </div>
 
