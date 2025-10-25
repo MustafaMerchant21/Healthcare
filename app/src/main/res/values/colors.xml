@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors -->
+    <color name="colorPrimary">#4772F5</color>
+    <color name="colorPrimaryVariant">#365AD8</color>
+    <color name="colorSecondary">#ABBEFF</color>
+
+    <!-- Background and Surfaces -->
+    <color name="colorBackground">#F9FAFB</color>
+    <color name="colorSurface">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnBackground">#1A1A1A</color>
+    <color name="colorHint">#757575</color>
+
+    <!-- Others -->
+    <color name="colorError">#D32F2F</color>
+    <color name="black">#131313</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00DEDEDE</color>
+    
+    <!-- Status Colors -->
+    <color name="green_light">#C8E6C9</color>
+    <color name="orange_light">#FFE0B2</color>
+    <color name="blue_light">#BBDEFB</color>
+    
+    <!-- Notification Colors -->
+    <color name="notification_unread_bg">#F0F7FF</color>
+    <color name="status_approved" />
+</resources>

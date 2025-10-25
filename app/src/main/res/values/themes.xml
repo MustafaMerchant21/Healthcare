@@ -1,0 +1,57 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base App Theme -->
+    <style name="Base.Theme.Healthcare" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="elevationOverlayEnabled">false</item>
+        <!-- Brand Colors -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+
+        <!-- Backgrounds -->
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">@color/colorOnBackground</item>
+        <item name="android:textColorHint">@color/colorHint</item>
+
+        <!-- Font -->
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="fontFamily">@font/inter</item>
+
+        <!-- Components -->
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorControlHighlight">@color/colorSecondary</item>
+    </style>
+
+    <style name="Theme.Healthcare" parent="Base.Theme.Healthcare" />
+
+    <!-- Shape Appearance for User Message Bubble (3 corners rounded, top-right square) -->
+    <style name="ShapeAppearance.UserMessage" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">20dp</item>
+        <item name="cornerSizeTopRight">4dp</item>
+        <item name="cornerSizeBottomRight">20dp</item>
+        <item name="cornerSizeBottomLeft">20dp</item>
+    </style>
+
+    <!-- Shape Appearance for Doctor Message Bubble (3 corners rounded, top-left square) -->
+    <style name="ShapeAppearance.DoctorMessage" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">4dp</item>
+        <item name="cornerSizeTopRight">20dp</item>
+        <item name="cornerSizeBottomRight">20dp</item>
+        <item name="cornerSizeBottomLeft">20dp</item>
+    </style>
+
+    <!-- TabLayout Text Style -->
+    <style name="TabTextStyle" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="textAllCaps">false</item>
+    </style>
+</resources>

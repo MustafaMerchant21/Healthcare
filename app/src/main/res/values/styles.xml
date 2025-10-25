@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Large Text (Bold, 20sp, desired line height 28sp => extra = 8sp) -->
+    <style name="TextLargeBold">
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:lineSpacingExtra">8sp</item> <!-- supports API < 28 -->
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/colorOnBackground</item>
+    </style>
+
+    <!-- Large Text (Regular) -->
+    <style name="TextLargeRegular">
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/colorOnBackground</item>
+    </style>
+
+    <!-- Medium Text (Bold, 18sp, desired line height 25sp => extra = 7sp) -->
+    <style name="TextMediumBold">
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingExtra">7sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/colorOnBackground</item>
+    </style>
+
+    <!-- Medium Text (Regular) -->
+    <style name="TextMediumRegular">
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingExtra">7sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/colorOnBackground</item>
+    </style>
+
+    <!-- Normal Text (Regular, 16sp, desired 22sp => extra = 6sp) -->
+    <style name="TextNormalRegular">
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/colorOnBackground</item>
+    </style>
+
+    <!-- Normal Text (Bold) -->
+    <style name="TextNormalBold">
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/colorOnBackground</item>
+    </style>
+
+    <!-- Small Text (Regular, 14sp, desired 19sp => extra = 5sp) -->
+    <style name="TextSmallRegular">
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">5sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/colorOnBackground</item>
+    </style>
+
+    <!-- Small Text (Bold) -->
+    <style name="TextSmallBold">
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">5sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/colorOnBackground</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.Carousel.Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
+</resources>

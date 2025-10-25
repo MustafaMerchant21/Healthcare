@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f8fb">
+
+    <!-- Skeleton Loading -->
+    <include
+        android:id="@+id/skeleton_loading"
+        layout="@layout/skeleton_home_fragment"
+        android:visibility="visible" />
+
+    <!-- Actual Content -->
+    <ScrollView
+        android:id="@+id/home_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+        <!-- Material 3 Carousel Section -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/carousel_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginBottom="24dp"
+            android:overScrollMode="never" />
+
+        <!-- Our Services Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Our services"
+                android:textColor=" #C4000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/see_more_services"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="See more"
+                android:textColor="#4772F5"
+                android:textSize="14sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="4dp" />
+        </LinearLayout>
+
+        <!-- Horizontal RecyclerView for Services -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/services_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="true"
+            android:orientation="horizontal"
+            android:overScrollMode="never"/>
+
+        <!-- Next Appointment Section -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            android:minHeight="100dp">
+
+            <!-- No Appointments Message -->
+            <TextView
+                android:id="@+id/no_appointments_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="No appointments scheduled"
+                android:textColor="#757575"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <!-- Single Appointment Card -->
+            <include
+                android:id="@+id/appointment_card"
+                layout="@layout/item_appointment_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:clipChildren="false"
+                android:visibility="gone" />
+
+        </FrameLayout>
+
+        <!-- Top Doctors Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Top Doctors"
+                android:textColor=" #C4000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/see_more_doctors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="See more"
+                android:textColor="#4772F5"
+                android:textSize="14sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="4dp" />
+        </LinearLayout>
+
+        <!-- Horizontal RecyclerView for Top Doctors -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/top_doctors_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="true"
+            android:orientation="horizontal"
+            android:overScrollMode="never"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Healthcare</string>
+    <string name="welcome_message">Your health, one tap away</string>
+    <string name="book_appointment">Book Appointment</string>
+    <string name="video_consultation">Video Consultation</string>
+    <string name="enter_symptoms">Describe your symptoms</string>
+    <string name="find_doctor">Find a Doctor</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="consult_now">Consult Now</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="error_message">Something went wrong. Please try again.</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="Password_hint">••••••••</string>
+</resources>

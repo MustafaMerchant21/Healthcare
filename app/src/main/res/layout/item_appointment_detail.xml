@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="25dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:strokeColor="@color/transparent"
+    app:cardBackgroundColor="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <!-- Left: Doctor Avatar -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/avatar_background"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:cardCornerRadius="35dp"
+            app:strokeColor="@color/transparent"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="#64B5F6">
+
+            <ImageView
+                android:id="@+id/doctor_avatar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_profile"
+                android:scaleType="centerCrop"
+                android:contentDescription="Doctor Avatar" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Middle: Doctor Info -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/doctor_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dr. Esther Howard"
+                android:textColor=" #C4000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/doctor_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Nose Chek Up"
+                android:textColor="#757575"
+                android:textSize="14sp"
+                android:alpha="0.7" />
+
+            <TextView
+                android:id="@+id/appointment_date_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="May 17, Tue"
+                android:textColor="#FFA726"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- Right: Call Button -->
+        <ImageButton
+            android:id="@+id/call_button"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/bg_arrow_button"
+            android:src="@drawable/ic_call"
+            android:contentDescription="Call Doctor"
+            android:scaleType="centerCrop"
+            android:padding="12dp" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
