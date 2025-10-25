@@ -12,7 +12,7 @@
 
 **A comprehensive, role-based healthcare management Android application connecting patients with verified medical professionals through an intuitive, feature-rich platform.**
 
-[Features](#-features) • [Tech Stack](#-technology-stack) • [Architecture](#-architecture) • [Installation](#-installation) • [Author](#-author)
+[Features](#-features) • [Tech Stack](#-technology-stack) • [Architecture](#-architecture) • [Installation](#-installation)
 
 ---
 
